@@ -1,10 +1,12 @@
 ﻿using Expense_Tracker.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 
 namespace Expense_Tracker.Controllers
 {
+    [Authorize]
     public class DashboardController : Controller
     {
 

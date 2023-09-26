@@ -12,20 +12,20 @@
     menuItems.Add(new
     {
         text = "Dashboard",
-        url = "/",
+        url = "/Dashboard/Index",
         iconCss = "fa-solid fa-box",
     });
     menuItems.Add(new
     {
         text = "Categories",
-        url = "/Category",
+        url = "/Category/Index",
         iconCss = "fa-solid fa-folder-closed",
     });
     menuItems.Add(new
     {
         text = "Transactions",
         iconCss = "fa-solid fa-arrow-right-arrow-left",
-        url = "/Transaction"
+        url = "/Transaction/Index"
     });
 
     menuItems.Add(new
@@ -43,6 +43,14 @@
         text = "Settings",
         iconCss = "fa-solid fa-gear",
         url = "#"
+    });
+
+    menuItems.Add(new
+    {
+        text = "Logout",
+        iconCss = "fa-solid fa-power-off",
+        url = "/Auth/Logout"
+         
     });
 }
 
